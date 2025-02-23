@@ -1,0 +1,60 @@
+{% extends "layouts.html" %} {% block styles %} .recipe-card { transition: all
+0.3s ease; } .recipe-card:hover { transform: translateY(-5px); box-shadow: 0 4px
+15px rgba(0,0,0,0.1); } .ingredient-tag { background-color: #f8f9fa;
+border-radius: 20px; padding: 5px 10px; margin: 3px; display: inline-block;
+font-size: 0.85rem; } .action-btn { width: 32px; height: 32px; border-radius:
+50%; display: flex; align-items: center; justify-content: center; background:
+white; border: none; box-shadow: 0 2px 5px rgba(0,0,0,0.1); } .action-btn:hover
+i { transform: scale(1.2); } {% endblock %} {% block content %}
+<div class="container">
+  <div class="text-center mb-4">
+    <h2 class="display-6">
+      <i class="fa-solid fa-bowl-food me-2"></i> Delicious Recipes
+    </h2>
+  </div>
+
+  <div class="row g-4">
+    {% for recipe in recipes %}
+    <div class="col-lg-4 col-md-6">
+      <div class="card recipe-card h-100">
+        <div class="position-relative">
+          <img
+            src="{{ recipe.image }}"
+            class="card-img-top"
+            alt="{{ recipe.title }}"
+          />
+          <div class="position-absolute top-0 end-0 m-2">
+            <button class="action-btn me-2">
+              <i class="fa-solid fa-heart text-danger"></i>
+            </button>
+            {% comment %} <button class="action-btn">
+              <i class="fa-solid fa-share text-primary"></i>
+            </button> {% endcomment %}
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa-solid fa-utensils me-2"></i> {{ recipe.title }}
+          </h5>
+          <p class="text-muted">
+            <i class="fa-regular fa-clock me-1"></i> {{ recipe.time }} |
+            <i class="fa-solid fa-chart-simple me-1"></i> {{ recipe.difficulty
+            }}
+          </p>
+          <div>
+            {% for ing in recipe.ingredients %}
+            <span class="ingredient-tag">{{ ing }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="card-footer bg-white border-0 text-center">
+          <button class="btn btn-dark w-100">
+            <a href="{% url "recipe_details" recipe.id %}"><i class="fa-solid fa-book me-2"></i> View Recipe</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

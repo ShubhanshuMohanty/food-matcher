@@ -1,0 +1,1098 @@
+[
+    {
+        "id": 1,
+        "name": "Paneer"
+    },
+    {
+        "id": 2,
+        "name": "Palak"
+    },
+    {
+        "id": 3,
+        "name": "Tomato"
+    },
+    {
+        "id": 4,
+        "name": "Onion"
+    },
+    {
+        "id": 5,
+        "name": "Garlic"
+    },
+    {
+        "id": 6,
+        "name": "Ginger"
+    },
+    {
+        "id": 7,
+        "name": "Butter"
+    },
+    {
+        "id": 8,
+        "name": "Cheese"
+    },
+    {
+        "id": 9,
+        "name": "Milk"
+    },
+    {
+        "id": 10,
+        "name": "Eggs"
+    },
+    {
+        "id": 11,
+        "name": "Chicken"
+    },
+    {
+        "id": 12,
+        "name": "Mutton"
+    },
+    {
+        "id": 13,
+        "name": "Fish"
+    },
+    {
+        "id": 14,
+        "name": "Rice"
+    },
+    {
+        "id": 15,
+        "name": "Wheat"
+    },
+    {
+        "id": 16,
+        "name": "Potato"
+    },
+    {
+        "id": 17,
+        "name": "Carrot"
+    },
+    {
+        "id": 18,
+        "name": "Capsicum"
+    },
+    {
+        "id": 19,
+        "name": "Coriander"
+    },
+    {
+        "id": 20,
+        "name": "Cumin"
+    },
+    {
+        "id": 21,
+        "name": "Salt"
+    },
+    {
+        "id": 22,
+        "name": "Sugar"
+    },
+    {
+        "id": 23,
+        "name": "Pepper"
+    },
+    {
+        "id": 24,
+        "name": "Turmeric"
+    },
+    {
+        "id": 25,
+        "name": "Chili Powder"
+    },
+    {
+        "id": 26,
+        "name": "Basil"
+    },
+    {
+        "id": 27,
+        "name": "Oregano"
+    },
+    {
+        "id": 28,
+        "name": "Mint"
+    },
+    {
+        "id": 29,
+        "name": "Thyme"
+    },
+    {
+        "id": 30,
+        "name": "Rosemary"
+    },
+    {
+        "id": 31,
+        "name": "Parsley"
+    },
+    {
+        "id": 32,
+        "name": "Soy Sauce"
+    },
+    {
+        "id": 33,
+        "name": "Vinegar"
+    },
+    {
+        "id": 34,
+        "name": "Lemon"
+    },
+    {
+        "id": 35,
+        "name": "Lime"
+    },
+    {
+        "id": 36,
+        "name": "Honey"
+    },
+    {
+        "id": 37,
+        "name": "Maple Syrup"
+    },
+    {
+        "id": 38,
+        "name": "Olive Oil"
+    },
+    {
+        "id": 39,
+        "name": "Coconut Oil"
+    },
+    {
+        "id": 40,
+        "name": "Flour"
+    },
+    {
+        "id": 41,
+        "name": "Cornstarch"
+    },
+    {
+        "id": 42,
+        "name": "Yeast"
+    },
+    {
+        "id": 43,
+        "name": "Baking Powder"
+    },
+    {
+        "id": 44,
+        "name": "Baking Soda"
+    },
+    {
+        "id": 45,
+        "name": "Cream"
+    },
+    {
+        "id": 46,
+        "name": "Yogurt"
+    },
+    {
+        "id": 47,
+        "name": "Mayonnaise"
+    },
+    {
+        "id": 48,
+        "name": "Mustard"
+    },
+    {
+        "id": 49,
+        "name": "Ketchup"
+    },
+    {
+        "id": 50,
+        "name": "Soybean"
+    },
+    {
+        "id": 51,
+        "name": "Peas"
+    },
+    {
+        "id": 52,
+        "name": "Lentils"
+    },
+    {
+        "id": 53,
+        "name": "Kidney Beans"
+    },
+    {
+        "id": 54,
+        "name": "Chickpeas"
+    },
+    {
+        "id": 55,
+        "name": "Spinach"
+    },
+    {
+        "id": 56,
+        "name": "Zucchini"
+    },
+    {
+        "id": 57,
+        "name": "Eggplant"
+    },
+    {
+        "id": 58,
+        "name": "Cauliflower"
+    },
+    {
+        "id": 59,
+        "name": "Broccoli"
+    },
+    {
+        "id": 60,
+        "name": "Cabbage"
+    },
+    {
+        "id": 61,
+        "name": "Bell Pepper"
+    },
+    {
+        "id": 62,
+        "name": "Mushrooms"
+    },
+    {
+        "id": 63,
+        "name": "Avocado"
+    },
+    {
+        "id": 64,
+        "name": "Apple"
+    },
+    {
+        "id": 65,
+        "name": "Banana"
+    },
+    {
+        "id": 66,
+        "name": "Orange"
+    },
+    {
+        "id": 67,
+        "name": "Grapes"
+    },
+    {
+        "id": 68,
+        "name": "Strawberry"
+    },
+    {
+        "id": 69,
+        "name": "Blueberry"
+    },
+    {
+        "id": 70,
+        "name": "Raspberry"
+    },
+    {
+        "id": 71,
+        "name": "Pineapple"
+    },
+    {
+        "id": 72,
+        "name": "Mango"
+    },
+    {
+        "id": 73,
+        "name": "Papaya"
+    },
+    {
+        "id": 74,
+        "name": "Watermelon"
+    },
+    {
+        "id": 75,
+        "name": "Cantaloupe"
+    },
+    {
+        "id": 76,
+        "name": "Pumpkin"
+    },
+    {
+        "id": 77,
+        "name": "Squash"
+    },
+    {
+        "id": 78,
+        "name": "Sweet Potato"
+    },
+    {
+        "id": 79,
+        "name": "Turnip"
+    },
+    {
+        "id": 80,
+        "name": "Radish"
+    },
+    {
+        "id": 81,
+        "name": "Beetroot"
+    },
+    {
+        "id": 82,
+        "name": "Celery"
+    },
+    {
+        "id": 83,
+        "name": "Asparagus"
+    },
+    {
+        "id": 84,
+        "name": "Leek"
+    },
+    {
+        "id": 85,
+        "name": "Scallions"
+    },
+    {
+        "id": 86,
+        "name": "Chives"
+    },
+    {
+        "id": 87,
+        "name": "Cloves"
+    },
+    {
+        "id": 88,
+        "name": "Bay Leaf"
+    },
+    {
+        "id": 89,
+        "name": "Cinnamon"
+    },
+    {
+        "id": 90,
+        "name": "Nutmeg"
+    },
+    {
+        "id": 91,
+        "name": "Cardamom"
+    },
+    {
+        "id": 92,
+        "name": "Fennel"
+    },
+    {
+        "id": 93,
+        "name": "Fenugreek"
+    },
+    {
+        "id": 94,
+        "name": "Star Anise"
+    },
+    {
+        "id": 95,
+        "name": "Curry Leaves"
+    },
+    {
+        "id": 96,
+        "name": "Saffron"
+    },
+    {
+        "id": 97,
+        "name": "Chocolate"
+    },
+    {
+        "id": 98,
+        "name": "Cocoa Powder"
+    },
+    {
+        "id": 99,
+        "name": "Vanilla Extract"
+    },
+    {
+        "id": 100,
+        "name": "Almonds"
+    },
+    {
+        "id": 101,
+        "name": "Walnuts"
+    },
+    {
+        "id": 102,
+        "name": "Pistachios"
+    },
+    {
+        "id": 103,
+        "name": "Cashews"
+    },
+    {
+        "id": 104,
+        "name": "Peanuts"
+    },
+    {
+        "id": 105,
+        "name": "Hazelnuts"
+    },
+    {
+        "id": 106,
+        "name": "Sesame Seeds"
+    },
+    {
+        "id": 107,
+        "name": "Chia Seeds"
+    },
+    {
+        "id": 108,
+        "name": "Flaxseeds"
+    },
+    {
+        "id": 109,
+        "name": "Sunflower Seeds"
+    },
+    {
+        "id": 110,
+        "name": "Pumpkin Seeds"
+    },
+    {
+        "id": 111,
+        "name": "Coconut"
+    },
+    {
+        "id": 112,
+        "name": "Prawns"
+    },
+    {
+        "id": 113,
+        "name": "Shrimp"
+    },
+    {
+        "id": 114,
+        "name": "Crab"
+    },
+    {
+        "id": 115,
+        "name": "Lobster"
+    },
+    {
+        "id": 116,
+        "name": "Clams"
+    },
+    {
+        "id": 117,
+        "name": "Oysters"
+    },
+    {
+        "id": 118,
+        "name": "Salmon"
+    },
+    {
+        "id": 119,
+        "name": "Tuna"
+    },
+    {
+        "id": 120,
+        "name": "Sardines"
+    },
+    {
+        "id": 121,
+        "name": "Cod"
+    },
+    {
+        "id": 122,
+        "name": "Halibut"
+    },
+    {
+        "id": 123,
+        "name": "Beef"
+    },
+    {
+        "id": 124,
+        "name": "Pork"
+    },
+    {
+        "id": 125,
+        "name": "Lamb"
+    },
+    {
+        "id": 126,
+        "name": "Duck"
+    },
+    {
+        "id": 127,
+        "name": "Turkey"
+    },
+    {
+        "id": 128,
+        "name": "Quail"
+    },
+    {
+        "id": 129,
+        "name": "Basil"
+    },
+    {
+        "id": 130,
+        "name": "Paprika"
+    },
+    {
+        "id": 131,
+        "name": "Mace"
+    },
+    {
+        "id": 132,
+        "name": "Mustard Seeds"
+    },
+    {
+        "id": 133,
+        "name": "Green Beans"
+    },
+    {
+        "id": 134,
+        "name": "Brussels Sprouts"
+    },
+    {
+        "id": 135,
+        "name": "Kale"
+    },
+    {
+        "id": 136,
+        "name": "Arugula"
+    },
+    {
+        "id": 137,
+        "name": "Endive"
+    },
+    {
+        "id": 138,
+        "name": "Artichoke"
+    },
+    {
+        "id": 139,
+        "name": "Okra"
+    },
+    {
+        "id": 140,
+        "name": "Bok Choy"
+    },
+    {
+        "id": 141,
+        "name": "Watercress"
+    },
+    {
+        "id": 142,
+        "name": "Turnip Greens"
+    },
+    {
+        "id": 143,
+        "name": "Collard Greens"
+    },
+    {
+        "id": 144,
+        "name": "Taro"
+    },
+    {
+        "id": 145,
+        "name": "Yam"
+    },
+    {
+        "id": 146,
+        "name": "Horseradish"
+    },
+    {
+        "id": 147,
+        "name": "Jalapeno"
+    },
+    {
+        "id": 148,
+        "name": "Habanero"
+    },
+    {
+        "id": 149,
+        "name": "Poblano"
+    },
+    {
+        "id": 150,
+        "name": "Chipotle"
+    },
+    {
+        "id": 151,
+        "name": "Black Beans"
+    },
+    {
+        "id": 152,
+        "name": "White Beans"
+    },
+    {
+        "id": 153,
+        "name": "Pinto Beans"
+    },
+    {
+        "id": 154,
+        "name": "Adzuki Beans"
+    },
+    {
+        "id": 155,
+        "name": "Edamame"
+    },
+    {
+        "id": 156,
+        "name": "Green Peas"
+    },
+    {
+        "id": 157,
+        "name": "Split Peas"
+    },
+    {
+        "id": 158,
+        "name": "Dill"
+    },
+    {
+        "id": 159,
+        "name": "Tarragon"
+    },
+    {
+        "id": 160,
+        "name": "Marjoram"
+    },
+    {
+        "id": 161,
+        "name": "Lemon Balm"
+    },
+    {
+        "id": 162,
+        "name": "Catnip"
+    },
+    {
+        "id": 163,
+        "name": "Chamomile"
+    },
+    {
+        "id": 164,
+        "name": "Lavender"
+    },
+    {
+        "id": 165,
+        "name": "Galangal"
+    },
+    {
+        "id": 166,
+        "name": "Lemongrass"
+    },
+    {
+        "id": 167,
+        "name": "Kaffir Lime Leaves"
+    },
+    {
+        "id": 168,
+        "name": "Lotus Root"
+    },
+    {
+        "id": 169,
+        "name": "Wasabi"
+    },
+    {
+        "id": 170,
+        "name": "Seaweed"
+    },
+    {
+        "id": 171,
+        "name": "Agar"
+    },
+    {
+        "id": 172,
+        "name": "Nori"
+    },
+    {
+        "id": 173,
+        "name": "Kombu"
+    },
+    {
+        "id": 174,
+        "name": "Wakame"
+    },
+    {
+        "id": 175,
+        "name": "Algae"
+    },
+    {
+        "id": 176,
+        "name": "Aloe Vera"
+    },
+    {
+        "id": 177,
+        "name": "Dragon Fruit"
+    },
+    {
+        "id": 178,
+        "name": "Passion Fruit"
+    },
+    {
+        "id": 179,
+        "name": "Guava"
+    },
+    {
+        "id": 180,
+        "name": "Lychee"
+    },
+    {
+        "id": 181,
+        "name": "Durian"
+    },
+    {
+        "id": 182,
+        "name": "Jackfruit"
+    },
+    {
+        "id": 183,
+        "name": "Starfruit"
+    },
+    {
+        "id": 184,
+        "name": "Kiwifruit"
+    },
+    {
+        "id": 185,
+        "name": "Fig"
+    },
+    {
+        "id": 186,
+        "name": "Dates"
+    },
+    {
+        "id": 187,
+        "name": "Prunes"
+    },
+    {
+        "id": 188,
+        "name": "Apricots"
+    },
+    {
+        "id": 189,
+        "name": "Persimmon"
+    },
+    {
+        "id": 190,
+        "name": "Mulberry"
+    },
+    {
+        "id": 191,
+        "name": "Currants"
+    },
+    {
+        "id": 192,
+        "name": "Goji Berries"
+    },
+    {
+        "id": 193,
+        "name": "Acai Berries"
+    },
+    {
+        "id": 194,
+        "name": "Gooseberries"
+    },
+    {
+        "id": 195,
+        "name": "Cranberries"
+    },
+    {
+        "id": 196,
+        "name": "Plum"
+    },
+    {
+        "id": 197,
+        "name": "Peach"
+    },
+    {
+        "id": 198,
+        "name": "Nectarine"
+    },
+    {
+        "id": 199,
+        "name": "Cherry"
+    },
+    {
+        "id": 200,
+        "name": "Pomegranate"
+    },
+    {
+        "id": 201,
+        "name": "Plantain"
+    },
+    {
+        "id": 202,
+        "name": "Breadfruit"
+    },
+    {
+        "id": 203,
+        "name": "Barley"
+    },
+    {
+        "id": 204,
+        "name": "Oats"
+    },
+    {
+        "id": 205,
+        "name": "Quinoa"
+    },
+    {
+        "id": 206,
+        "name": "Millet"
+    },
+    {
+        "id": 207,
+        "name": "Sorghum"
+    },
+    {
+        "id": 208,
+        "name": "Amaranth"
+    },
+    {
+        "id": 209,
+        "name": "Buckwheat"
+    },
+    {
+        "id": 210,
+        "name": "Polenta"
+    },
+    {
+        "id": 211,
+        "name": "Couscous"
+    },
+    {
+        "id": 212,
+        "name": "Farro"
+    },
+    {
+        "id": 213,
+        "name": "Teff"
+    },
+    {
+        "id": 214,
+        "name": "Spelt"
+    },
+    {
+        "id": 215,
+        "name": "Rye"
+    },
+    {
+        "id": 216,
+        "name": "Semolina"
+    },
+    {
+        "id": 217,
+        "name": "Tapioca"
+    },
+    {
+        "id": 218,
+        "name": "Arrowroot"
+    },
+    {
+        "id": 219,
+        "name": "Gelatin"
+    },
+    {
+        "id": 220,
+        "name": "Agar-Agar"
+    },
+    {
+        "id": 221,
+        "name": "Tofu"
+    },
+    {
+        "id": 222,
+        "name": "Tempeh"
+    },
+    {
+        "id": 223,
+        "name": "Seitan"
+    },
+    {
+        "id": 224,
+        "name": "TVP"
+    },
+    {
+        "id": 225,
+        "name": "Natto"
+    },
+    {
+        "id": 226,
+        "name": "Miso"
+    },
+    {
+        "id": 227,
+        "name": "Kimchi"
+    },
+    {
+        "id": 228,
+        "name": "Sauerkraut"
+    },
+    {
+        "id": 229,
+        "name": "Pickles"
+    },
+    {
+        "id": 230,
+        "name": "Gherkins"
+    },
+    {
+        "id": 231,
+        "name": "Olives"
+    },
+    {
+        "id": 232,
+        "name": "Capers"
+    },
+    {
+        "id": 233,
+        "name": "Anchovies"
+    },
+    {
+        "id": 234,
+        "name": "Escargot"
+    },
+    {
+        "id": 235,
+        "name": "Frog Legs"
+    },
+    {
+        "id": 236,
+        "name": "Eel"
+    },
+    {
+        "id": 237,
+        "name": "Squid"
+    },
+    {
+        "id": 238,
+        "name": "Octopus"
+    },
+    {
+        "id": 239,
+        "name": "Sea Cucumber"
+    },
+    {
+        "id": 240,
+        "name": "Caviar"
+    },
+    {
+        "id": 241,
+        "name": "Truffles"
+    },
+    {
+        "id": 242,
+        "name": "Foie Gras"
+    },
+    {
+        "id": 243,
+        "name": "Prosciutto"
+    },
+    {
+        "id": 244,
+        "name": "Salami"
+    },
+    {
+        "id": 245,
+        "name": "Chorizo"
+    },
+    {
+        "id": 246,
+        "name": "Mortadella"
+    },
+    {
+        "id": 247,
+        "name": "Pastrami"
+    },
+    {
+        "id": 248,
+        "name": "Corned Beef"
+    },
+    {
+        "id": 249,
+        "name": "Bratwurst"
+    },
+    {
+        "id": 250,
+        "name": "Kielbasa"
+    },
+    {
+        "id": 251,
+        "name": "Andouille"
+    },
+    {
+        "id": 252,
+        "name": "Vienna Sausage"
+    },
+    {
+        "id": 253,
+        "name": "Bologna"
+    },
+    {
+        "id": 254,
+        "name": "Black Pudding"
+    },
+    {
+        "id": 255,
+        "name": "White Pudding"
+    },
+    {
+        "id": 256,
+        "name": "Haggis"
+    },
+    {
+        "id": 257,
+        "name": "Spam"
+    },
+    {
+        "id": 258,
+        "name": "Venison"
+    },
+    {
+        "id": 259,
+        "name": "Rabbit"
+    },
+    {
+        "id": 260,
+        "name": "Goose"
+    },
+    {
+        "id": 261,
+        "name": "Pheasant"
+    },
+    {
+        "id": 262,
+        "name": "Partridge"
+    },
+    {
+        "id": 263,
+        "name": "Squab"
+    },
+    {
+        "id": 264,
+        "name": "Grouse"
+    },
+    {
+        "id": 265,
+        "name": "Rattlesnake"
+    },
+    {
+        "id": 266,
+        "name": "Alligator"
+    },
+    {
+        "id": 267,
+        "name": "Ostrich"
+    },
+    {
+        "id": 268,
+        "name": "Emu"
+    },
+    {
+        "id": 269,
+        "name": "Kangaroo"
+    },
+    {
+        "id": 270,
+        "name": "Yak"
+    },
+    {
+        "id": 271,
+        "name": "Moose"
+    },
+    {
+        "id": 272,
+        "name": "Elk"
+    },
+    {
+        "id": 273,
+        "name": "Bison"
+    },
+    {
+        "id": 274,
+        "name": "Buffalo"
+    }
+]

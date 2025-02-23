@@ -1,0 +1,183 @@
+{% extends "layouts.html" %} {% block content %}
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="mb-0">Recipe Creator</h3>
+        </div>
+        <div class="card-body">
+          <!-- Recipe Name -->
+          {% comment %} <div class="mb-3">
+            <label for="recipeName" class="form-label">Recipe Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="recipeName"
+              placeholder="Enter recipe name"
+            />
+          </div> {% endcomment %}
+
+          <!-- Servings -->
+          {% comment %} <div class="mb-3">
+            <label for="servings" class="form-label">Servings</label>
+            <input
+              type="number"
+              class="form-control"
+              id="servings"
+              min="1"
+              value="4"
+            />
+          </div> {% endcomment %}
+
+          <!-- Ingredients Button -->
+          <div class="mb-3">
+            <label class="form-label">Ingredients</label>
+            <button
+              type="button"
+              class="btn btn-outline-primary w-100 text-start"
+              data-bs-toggle="modal"
+              data-bs-target="#ingredientsModal"
+            >
+              Select Ingredients...
+            </button>
+          </div>
+
+          <!-- Selected Ingredients Display -->
+          <div id="selectedIngredients" class="mb-3">
+            <!-- Selected ingredients will be shown here -->
+          </div>
+
+          <!-- Rest of your form... -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ingredients Modal -->
+<div class="modal fade" id="ingredientsModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Select Ingredients</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search ingredients..."
+            id="searchIngredients",
+            oninput="getSuggestions()"
+          />
+          <button class="btn btn-outline-secondary" type="button">
+            Search
+          </button>
+        </div>
+        <div class="ingredient-list">
+          
+          {% comment %} <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="Coconut"
+              id="ing-coconut"
+            />
+            <label class="form-check-label" for="ing-coconut">Coconut</label>
+          </div> {% endcomment %}
+          <!-- Add more ingredients as needed -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          onclick="updateSelectedIngredients()"
+        >
+          Add Selected
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    // Search functionality
+    {% comment %} document
+      .getElementById("searchIngredients")
+      .addEventListener("input", function (e) {
+        const searchText = e.target.value.toLowerCase();
+        const ingredients = document.querySelectorAll(
+          ".ingredient-list .form-check"
+        );
+        
+        
+        ingredients.forEach((ing) => {
+          const label = ing.querySelector("label").textContent.toLowerCase();
+          ing.style.display = label.includes(searchText) ? "" : "none";
+        });
+      }); {% endcomment %}
+
+    //search suggestion
+    function getSuggestions() {
+      const input = document.getElementById("searchIngredients").value;
+      if(input.length>0)
+      {
+        fetch(`/search/search_suggestions?q=${input}`)
+            .then(response => response.json())
+            .then(data=>{
+              console.log(data)
+              const ingredientList = document.querySelector(".ingredient-list");
+                ingredientList.innerHTML = ""; // Purana data hatao
+
+                data.suggestions.forEach(ingredient => {
+                    ingredientList.innerHTML += `
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="${ingredient.name}" id="ing-${ingredient.id}">
+                            <label class="form-check-label" for="ing-${ingredient.id}">${ingredient.name}</label>
+                        </div>
+                    `;
+                });
+
+            }).catch(error => {
+              console.error('Error:', error);
+            });
+      }
+      console.log("sm")
+    }
+  
+    // Update selected ingredients
+    function updateSelectedIngredients() {
+      const selectedDiv = document.getElementById("selectedIngredients");
+      const selected = [];
+  
+      document
+        .querySelectorAll('.ingredient-list input[type="checkbox"]:checked')
+        .forEach((checkbox) => {
+          selected.push(checkbox.value);
+        });
+  
+      if (selected.length > 0) {
+        selectedDiv.innerHTML = selected
+          .map((ing) => `<span class="badge bg-primary me-2 mb-2">${ing}</span>`)
+          .join("");
+          const ingredientsParam = encodeURIComponent(selected.join(","));
+          console.log("smii",ingredientsParam);
+          window.location.href = `/search/fetch_recipes?ingredients=${ingredientsParam}`;
+      } else {
+        selectedDiv.innerHTML = "<em>No ingredients selected</em>";
+      }
+    }
+  </script>
+{% endblock %}
+
